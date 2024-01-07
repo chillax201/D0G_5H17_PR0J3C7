@@ -1,1 +1,4 @@
-# JU57_4N07H3R_5CR4P3R
+#dog shit project
+this is a project for my school
+please don't judge the code
+it's half GPT XD
