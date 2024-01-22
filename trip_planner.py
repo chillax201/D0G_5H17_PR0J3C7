@@ -23,17 +23,19 @@ class TripPlanner:
         return False
 
     def list_all(self):
+        # r = str(input("do you want to write this to a text file? y/n"))
         print("\n\nthe current planned trips are :\n")
         for i in self.users :
             print(i["username"], " has the follwing ongoing trips :\n")
             for j in i["trips"]:
                 print("\t\t", j["country"]," :")
+                print("\t\t\titenerary : ")
                 for l in self.countries[j["country"]] :
                     print("\t\t\t - ", l)
                 print("\t\t\tnumber of people : ", j["number of people"])
                 print("\t\t\tdate : ", j["date"])
                 print("\t\t\tamount pending : ", j["amount pending"])
-                print("\t\t\titenerary : ")
+
                 
     
     def plan_trip(self, username):
