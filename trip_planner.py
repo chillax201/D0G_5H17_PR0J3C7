@@ -35,9 +35,7 @@ class TripPlanner:
                 print("\t\t\tnumber of people : ", j["number of people"])
                 print("\t\t\tdate : ", j["date"])
                 print("\t\t\tamount pending : ", j["amount pending"])
-
-                
-    
+        
     def plan_trip(self, username):
         print("\nWelcome to the Trip Planner!")
         if not self.user_login(username, input("Enter your password: ")):
